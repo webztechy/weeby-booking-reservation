@@ -1,0 +1,1 @@
+<?php // All is good!
