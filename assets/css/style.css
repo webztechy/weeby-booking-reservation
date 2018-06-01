@@ -1,0 +1,21 @@
+/**
+ * @package     Booking & Reservation
+ * @Version: 	1.0.0
+ * @author      Webztechy <https://www.facebook.com/webztechy>
+ * @copyright   Copyright (c) 2016-2017, Webztechy
+ *
+ */
+ 
+div.updated,
+div.error,
+div.update-nag,
+/*#menu-posts-qab-subscriber  ul.wp-submenu-wrap > li:nth-child(3),*/
+body.post-type-qab-subscriber #wpbody-content .wrap > h1,
+div[id*=mymetabox_revslider_],
+div#edit-slug-box,
+div#minor-publishing,
+div#screen-meta-links
+{
+	display: none;
+};
+ 

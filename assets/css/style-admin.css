@@ -1,0 +1,72 @@
+/**
+ * @package     Booking & Reservation
+ * @Version: 	1.0.0
+ * @author      Webztechy <https://www.facebook.com/webztechy>
+ * @copyright   Copyright (c) 2016-2017, Webztechy
+ *
+ */
+ 
+
+
+table.promo-event-table  {
+    margin-bottom: 15px !important;
+}
+table.promo-event-table td, table.promo-event-table th {
+	padding: 2px;
+	margin: 0;
+}
+table.promo-event-table th {
+    width: 160px;
+    vertical-align: initial;
+}
+table.promo-event-table td input[type=text],
+table.promo-event-table td input[type=email],
+table.promo-event-table td input[type=number],
+table.promo-event-table td select{
+	width: 270px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    -webkit-transition: 50ms border-color ease-in-out;
+    transition: 50ms border-color ease-in-out;
+	padding: 5px;
+}
+table.promo-event-table td span{
+	display: block;
+    color: gray;
+	margin-bottom: 5px;
+}
+table.table-game-shop td input[type=text],
+table.table-game-shop td input[type=email],
+table.table-game-shop td input[type=number],
+table.table-game-shop td select{
+    width: 25em !important;
+}
+ul.promo-event-future-events-list > li input,
+ul.promo-event-future-events-list > li div {
+    float: left;
+    margin: 0;
+}
+ul.promo-event-future-events-list > li div {
+	 padding: 0 0 0 10px !important;
+}
+ul.promo-event-future-events-list > li {
+    float: left;
+    width: 33.33%;
+}
+ul.promo-event-game-shop-list > li {
+    width: 50%;
+    float: left;
+}
+.promo-event-future-events-wrap {
+    margin-bottom: 20px;
+}
+.promo-event-future-events-wrap > strong {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    display: block;
+}
